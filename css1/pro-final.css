@@ -1,0 +1,130 @@
+@media screen and (max-width:899px){
+  header nav {
+  text-align: center;
+  padding-bottom: 4%;
+  }
+  header nav h1 {
+  padding-left: 0;
+  padding-right: 0;
+  }
+  .menu{
+    text-align: center;
+  }
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+#imagenes{
+  display: flex;
+  flex-direction: column;
+}
+}
+@keyframes sleiden{
+ 0%{
+    margin-top: 150%
+  }60%{
+    margin-top: -5%
+  }100%{
+    margin-top: 0%
+  }
+}
+body{
+background-color: #02010a;
+font-family: 'Dancing Script', cursive;
+animation-name: sleiden;
+animation-duration: 1s;
+}
+#contenido{
+  max-width:900px;
+  margin: auto;
+}
+header{
+  background-color:  #5b7989;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  }
+header nav h1 {
+text-shadow: 2px 2px #02010a;
+display: inline-flex;
+padding-left: 3%;
+padding-right: 20%;
+
+}
+header nav a {
+padding-left: 3%;
+color: white;
+}
+#imagen{
+  text-align: center;
+  background-color: #82c3a6;
+}
+.imagenes{
+  margin-top: 10px;
+  margin-bottom: 10PX;
+  width: 90%;
+}
+.img{
+  margin-top: 10px;
+}
+.img .img1 .img2{
+
+  -webkit-filter: drop-shadow(2px 2px 2px #82c3a6);
+   filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+#imagenes{
+  display: flex;
+  flex-flow: row-wrap;
+  background-color:  #d5c75f;
+}
+.imgn1{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.imgn2{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.img1{
+  transform: rotate 1s;
+}
+
+.img1:hover{
+  transform: rotate(10deg);
+}
+.img2{
+  transform: translate 1s;
+}
+.img2:hover{
+  transform:translate(20px, -5px);
+}
+footer{
+  background-color:  #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+#final{
+  margin-left: 30px;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+#final section{
+  box-sizing: border-box;
+  min-width: 100px;
+}
+.contacto{
+  width: 25%;
+}
+.termino{
+  width: 25%;
+}
+.redes{
+  width: 25%;
+}
+.derechos{
+  width: 25%;
+}

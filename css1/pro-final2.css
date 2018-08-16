@@ -1,0 +1,148 @@
+@media screen and (max-width:899px){
+  header nav {
+  text-align: center;
+  padding-bottom: 4%;
+  }
+  header nav h1 {
+  padding-left: 0;
+  padding-right: 0;
+  }
+  .menu{
+    text-align: center;
+  }
+#galeria{
+width: 100%;
+display: flex;
+flex-direction:column;
+}
+.pais1{
+  width: 100%;
+  }
+.pais2{
+  width: 100%;
+}
+.pais3{
+  width: 100%;
+}
+.pais4{
+  width: 100%;
+}
+.pais5{
+  width: 100%;
+}
+.pais6{
+    width: 100%;
+}
+#final{
+  display: flex;
+  flex-direction: column;
+}
+}
+@keyframes sleiden{
+ 0%{
+    margin-top: 150%
+  }60%{
+    margin-top: -5%
+  }100%{
+    margin-top: 0%
+  }
+}
+body{
+  animation-name: sleiden;
+  animation-duration: 1s;
+background-color: #02010a;
+font-family: 'Dancing Script', cursive;
+}
+#contenido{
+  max-width: 900px;
+  margin: auto;
+}
+header{
+  background-color:  #5b7989;
+  border-radius: 10px 10px 0 0;
+  }
+header nav h1 {
+text-shadow: 2px 2px #02010a;
+display: inline-flex;
+padding-left: 3%;
+padding-right: 20%;
+color: white;
+}
+header nav a {
+padding-left: 3%;
+color: white;
+}
+#galeria{
+  background-color:#d5c75f;
+  display:flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+figure img{
+  width: 100%;
+}
+.pais1{
+  width: 24%;
+  }
+.pais2{
+  width: 24%;
+}
+.pais3{
+  width:24%;
+}
+.pais4{
+  width: 24%;
+}
+.pais5{
+  width: 24%;
+}
+.pais6{
+    width: 24%;
+}
+.imguno{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+.imgdos{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  }
+  .imgcuatro{
+    -webkit-filter:grayscale(100%);
+    filter: grayscale(100%);
+    }
+.imgseis{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.imgtres{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+footer{
+  background-color:  #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+#final{
+  margin-left: 30px;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+#final section{
+  box-sizing: border-box;
+  min-width: 100px;
+}
+.contacto{
+  width: 25%;
+}
+.termino{
+  width: 25%;
+}
+.redes{
+  width: 25%;
+}
+.derechos{
+  width: 25%;
+}
